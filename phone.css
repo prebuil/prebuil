@@ -1,0 +1,63 @@
+/* home */
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+/* about */
+#pic img{
+    width: 250px;
+    height: 200px;
+}
+#intro h2{
+    font-size: 1.5rem;
+}
+/* skills */
+section #skills{
+    height: 100%;
+}
+section #form{
+    height: 100%;
+}
+
+
+
+/* services */
+/* changes are made in style.css */
+
+
+/* portfolio */
+    .gallery img{
+        width: 275px;
+        height: 150px;
+        margin: 10px;
+    }
+
+    /* contact */
+    .contact{
+        width: 50%;
+        height: 100%;
+    }
+    #msg{
+        width: 70%;
+       
+    }
+    #send{
+        width: 20%;
+    }
+
+    @media screen and(max-width:940px) {
+        /* section.dev.skills.li{
+           display: flex;
+           flex-direction: column;
+        } */
+        section.dev.skills.li{
+           width:25%;
+           height: 20%;
+           display: flex;
+           margin: 20px 0px;
+     
+        }
+        
+     } 
